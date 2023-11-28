@@ -1,5 +1,7 @@
 ﻿using Microsoft.VisualStudio.Text.Classification;
+using Microsoft.VisualStudio.Text.Formatting;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace EditorExtensionsDemo
 {
@@ -7,7 +9,7 @@ namespace EditorExtensionsDemo
     {
         private bool dirty;
         private readonly Dictionary<string, ClassificationTextFormattingRunProperties> textFormattingPropertiesLookup = new();
-        private readonly string category;
+        public readonly string Category;
         private IClassificationFormatMap classificationFormatMap;
         private readonly IClassificationTypeRegistryService classificationTypeRegistryService;
         private readonly IClassificationFormatMapService classificationFormatMapService;
@@ -19,7 +21,7 @@ namespace EditorExtensionsDemo
             IClassificationFormatMapService classificationFormatMapService
         )
         {
-            this.category = category;
+            this.Category = category;
             this.classificationTypeRegistryService = classificationTypeRegistryService;
             this.classificationFormatMapService = classificationFormatMapService;
             SetClassificationFormatMap();
@@ -37,7 +39,7 @@ namespace EditorExtensionsDemo
 
         private void SetClassificationFormatMap()
         {
-            classificationFormatMap = classificationFormatMapService.GetClassificationFormatMap(category);
+            classificationFormatMap = classificationFormatMapService.GetClassificationFormatMap(Category);
             classificationFormatMap.ClassificationFormatMappingChanged += ClassificationFormatMap_ClassificationFormatMappingChanged;
         }
 
@@ -48,6 +50,9 @@ namespace EditorExtensionsDemo
             classificationFormatMap.ClassificationFormatMappingChanged -= ClassificationFormatMap_ClassificationFormatMappingChanged;
         }
 
+        public ReadOnlyCollection<IClassificationType> CurrentPriorityOrder => classificationFormatMap.CurrentPriorityOrder;
+
+        public TextFormattingRunProperties DefaultTextFormattingRunProperties => classificationFormatMap.DefaultTextProperties;
         public ClassificationTextFormattingRunProperties GetClassificationTextFormattingRunProperties(string classification)
         {
             if (dirty)
@@ -62,7 +67,8 @@ namespace EditorExtensionsDemo
             var ct = classificationTypeRegistryService.GetClassificationType(classification);
             var classificationTextFormattingRunProperties =  new ClassificationTextFormattingRunProperties(
                 classificationFormatMap.GetExplicitTextProperties(ct),
-                classificationFormatMap.GetTextProperties(ct)
+                classificationFormatMap.GetTextProperties(ct),
+                classificationFormatMap.DefaultTextProperties
             );
             textFormattingPropertiesLookup.Add(classification, classificationTextFormattingRunProperties);
             return classificationTextFormattingRunProperties;

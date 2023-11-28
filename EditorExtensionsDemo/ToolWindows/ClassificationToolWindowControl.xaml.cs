@@ -1,7 +1,6 @@
 ﻿using EditorExtensionsDemo.QuickInfo;
 using Microsoft.VisualStudio.ComponentModelHost;
 using Microsoft.VisualStudio.Text.Classification;
-using Microsoft.VisualStudio.Text.Formatting;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -112,53 +111,10 @@ namespace EditorExtensionsDemo
 
     }
 
-    public class ClassificationTextFormattingRunProperties
-    {
-        public ClassificationTextFormattingRunProperties(
-            TextFormattingRunProperties ownTextFormattingRunProperties,
-            TextFormattingRunProperties mergedTextFormattingRunProperties
-        )
-        {
-            OwnTextFormattingRunProperties = ownTextFormattingRunProperties;
-            MergedTextFormattingRunProperties = mergedTextFormattingRunProperties;
-        }
-
-        public TextFormattingRunProperties OwnTextFormattingRunProperties { get; }
-        public TextFormattingRunProperties MergedTextFormattingRunProperties { get; }
-    }
-
     internal enum DefinitionFrom
     {
         ClassificationFormatDefinition,
         EditorFormatDefinition,
         None
-    }
-
-    public class TreeItem
-    {
-        public TreeItem(string name, ClassificationTextFormattingRunProperties classificationTextFormattingRunProperties)
-        {
-            Name = name;
-            this.OwnTextFormattingRunProperties = classificationTextFormattingRunProperties.OwnTextFormattingRunProperties;
-            this.MergedTextFormattingRunProperties = classificationTextFormattingRunProperties.MergedTextFormattingRunProperties;
-        }
-
-        public void AddChild(TreeItem child)
-        {
-            Children.Add(child);
-            child.Parent = this;
-        }
-
-        internal void Sort()
-        {
-            this.Children.Sort((a, b) => a.Name.CompareTo(b.Name));
-        }
-
-        public TreeItem Parent { get; set; }
-
-        public string Name { get; }
-        public TextFormattingRunProperties OwnTextFormattingRunProperties { get; }
-        public TextFormattingRunProperties MergedTextFormattingRunProperties { get; }
-        public List<TreeItem> Children { get; private set; } = new List<TreeItem>();
     }
 }

@@ -1,0 +1,69 @@
+(48)-638367775349585519: Request 0(100) (nr 0) received and activated.
+(48)-638367775349585519: ERS: Active request is now 0(100) (nr 0).
+(48)-638367775349595530: ERS: Active request is now 0(100) (nr 0).
+(10)-638367775361046941: Request 0(100) (nr 0) is waiting on configuration -2 (IBR)
+(10)-638367775361057097: Issuing configuration request for node config -2
+(13)-638367775361096946: Received configuration response for node config -2, now global config 101.
+(13)-638367775361107032: Sending node request 1 (configuration 101) with parent 0 to Build Manager
+(41)-638367775361152139: Request 1(101) (nr 1) received and activated.
+(41)-638367775361182213: ERS: Active request is now 1(101) (nr 1).
+(41)-638367775361192219: ERS: Active request is now 1(101) (nr 1).
+(13)-638367775364726340: ERS: Request 1(101) (nr 1) is marked as complete.
+(13)-638367775364726340: ERS: Request 1(101) (nr 1) is being removed from the requests list.
+(13)-638367775364741406: ERS: Request is now 1(101) (nr 1) has had its builder cleaned up.
+(13)-638367775364741406: RRC: Reporting result for request 1(101) (nr 1).
+(48)-638367775364836636: Request 0(100) (nr 0) is no longer waiting on nr 1 (UBR).  Results are Failure.
+(48)-638367775364836636: Request 0(100) (nr 0) is now proceeding from current state Ready.
+(48)-638367775364849302: ERS: Active request is now 0(100) (nr 0).
+(48)-638367775364849302: ERS: Active request is now 0(100) (nr 0).
+(10)-638367775364965134: ERS: Request 0(100) (nr 0) is marked as complete.
+(10)-638367775364974950: ERS: Request 0(100) (nr 0) is being removed from the requests list.
+(10)-638367775364974950: ERS: Request is now 0(100) (nr 0) has had its builder cleaned up.
+(10)-638367775364974950: RRC: Reporting result for request 0(100) (nr 0).
+(13)-638367775365081688: CFB: Cleaning up build.  Requests Count 0  Status Idle
+(41)-638367780055036182: Request 0(103) (nr 0) received and activated.
+(41)-638367780055046273: ERS: Active request is now 0(103) (nr 0).
+(41)-638367780055056229: ERS: Active request is now 0(103) (nr 0).
+(36)-638367780063591268: Request 0(103) (nr 0) is waiting on configuration -2 (IBR)
+(36)-638367780063601182: Issuing configuration request for node config -2
+(38)-638367780063646663: Received configuration response for node config -2, now global config 104.
+(38)-638367780063656983: Sending node request 1 (configuration 104) with parent 0 to Build Manager
+(36)-638367780063706443: Request 1(104) (nr 1) received and activated.
+(36)-638367780063721524: ERS: Active request is now 1(104) (nr 1).
+(36)-638367780063731633: ERS: Active request is now 1(104) (nr 1).
+(42)-638367780065659995: ERS: Request 1(104) (nr 1) is marked as complete.
+(42)-638367780065669990: ERS: Request 1(104) (nr 1) is being removed from the requests list.
+(42)-638367780065669990: ERS: Request is now 1(104) (nr 1) has had its builder cleaned up.
+(42)-638367780065669990: RRC: Reporting result for request 1(104) (nr 1).
+(41)-638367780065720043: Request 0(103) (nr 0) is no longer waiting on nr 1 (UBR).  Results are Success.
+(41)-638367780065731615: Request 0(103) (nr 0) is now proceeding from current state Ready.
+(41)-638367780065731615: ERS: Active request is now 0(103) (nr 0).
+(41)-638367780065731615: ERS: Active request is now 0(103) (nr 0).
+(45)-638367780108083505: Sending node request 2 (configuration 103) with parent 0 to Build Manager
+(42)-638367780108120777: Request 2(103) (nr 2) received and activated.
+(42)-638367780108130534: ERS: Active request is now 2(103) (nr 2).
+(42)-638367780108130534: ERS: Request 2(103) (nr 2) is marked as complete.
+(42)-638367780108140272: ERS: Request 2(103) (nr 2) is being removed from the requests list.
+(42)-638367780108140272: ERS: Request is now 2(103) (nr 2) has had its builder cleaned up.
+(42)-638367780108150305: RRC: Reporting result for request 2(103) (nr 2).
+(45)-638367780108181090: Request 0(103) (nr 0) is no longer waiting on nr 2 (UBR).  Results are Success.
+(45)-638367780108190262: Request 0(103) (nr 0) is now proceeding from current state Ready.
+(45)-638367780108190262: ERS: Active request is now 0(103) (nr 0).
+(45)-638367780108200626: ERS: Active request is now 0(103) (nr 0).
+(42)-638367780108210255: Sending node request 3 (configuration 103) with parent 0 to Build Manager
+(37)-638367780108251249: Request 3(103) (nr 3) received and activated.
+(37)-638367780108251249: ERS: Active request is now 3(103) (nr 3).
+(37)-638367780108260924: ERS: Active request is now 3(103) (nr 3).
+(45)-638367780108300918: ERS: Request 3(103) (nr 3) is marked as complete.
+(45)-638367780108312029: ERS: Request 3(103) (nr 3) is being removed from the requests list.
+(45)-638367780108312029: ERS: Request is now 3(103) (nr 3) has had its builder cleaned up.
+(45)-638367780108321315: RRC: Reporting result for request 3(103) (nr 3).
+(41)-638367780108520881: Request 0(103) (nr 0) is no longer waiting on nr 3 (UBR).  Results are Success.
+(41)-638367780108531013: Request 0(103) (nr 0) is now proceeding from current state Ready.
+(41)-638367780108531013: ERS: Active request is now 0(103) (nr 0).
+(41)-638367780108531013: ERS: Active request is now 0(103) (nr 0).
+(43)-638367780136492106: ERS: Request 0(103) (nr 0) is marked as complete.
+(43)-638367780136502092: ERS: Request 0(103) (nr 0) is being removed from the requests list.
+(43)-638367780136502092: ERS: Request is now 0(103) (nr 0) has had its builder cleaned up.
+(43)-638367780136512089: RRC: Reporting result for request 0(103) (nr 0).
+(36)-638367780136680130: CFB: Cleaning up build.  Requests Count 0  Status Idle

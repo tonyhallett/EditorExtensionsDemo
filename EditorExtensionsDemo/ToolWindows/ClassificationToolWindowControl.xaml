@@ -22,6 +22,7 @@
                 </HierarchicalDataTemplate>
             </Grid.Resources>
             <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
@@ -32,12 +33,67 @@
                 <TextBox Text="{Binding CategoryInput, UpdateSourceTrigger=PropertyChanged}"/>
                 <Button 
                     Content="Get IClassificationFormatMap" 
-                    Command="{Binding GetClassificationFormatMap}"
-                    CommandParameter="{Binding CategoryItem}"
+                    Command="{Binding CreateClassificationFormatMapCommand}"
+                    CommandParameter="{Binding CategoryInput}"
                     />
+                <ComboBox ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory}"/>
+
+                <CheckBox VerticalContentAlignment="Center" IsChecked="{Binding ShowExplicitTextProperties}" Content="Show Explicit Text Properties">
+                    <CheckBox.ToolTip>
+                        <TextBlock>Note that if no FontTypeface it will be taken from DefaultTextProperties.DefaultTextProperties</TextBlock>
+                    </CheckBox.ToolTip>
+                </CheckBox>
             </StackPanel>
             
-            <TreeView Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ClassificationTree}"/>
+            <!--<TreeView Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ClassificationTree}"/>-->
+            
+            <ListView Grid.Row="2" Grid.Column="0"  ItemsSource="{Binding PriorityClassifications}">
+                <ListView.Style>
+                    <Style TargetType="{x:Type ListView}"/>
+                </ListView.Style>
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Classification">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Classification}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                        <GridViewColumn Header="Is null">
+                            
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <CheckBox IsEnabled="False" IsChecked="{Binding IsNull, Mode=OneWay}" />
+                                </DataTemplate> 
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Before">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Before}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="After">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding After}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Priority">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Priority}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            
         </Grid>
     </Grid>
 </UserControl>

@@ -80,17 +80,24 @@
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Compile>
     <Compile Include="Tagging\RegexTagger.cs" />
+    <Compile Include="ToolWindows\ClassificationTextFormattingRunProperties.cs" />
+    <Compile Include="ToolWindows\ClassificationTextSource.cs" />
     <Compile Include="ToolWindows\ClassificationToolWindow.cs" />
     <Compile Include="ToolWindows\ClassificationToolWindowControl.xaml.cs">
       <DependentUpon>ClassificationToolWindowControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="ToolWindows\ClassificationTreeItem.cs" />
     <Compile Include="ToolWindows\ClassificationViewModel.cs" />
+    <Compile Include="ToolWindows\DefaultTextParagraphProperties.cs" />
+    <Compile Include="ToolWindows\DefaultTextRunProperties.cs" />
     <Compile Include="ToolWindows\Metadata\IClassificationFormatMetadata.cs" />
     <Compile Include="ToolWindows\Metadata\IClassificationTypeDefinitionMetadata.cs" />
     <Compile Include="ToolWindows\Metadata\IEditorFormatMetadata.cs" />
     <Compile Include="ToolWindows\Metadata\IOrderable.cs" />
     <Compile Include="ToolWindows\MyClassificationFormatMap.cs" />
+    <Compile Include="ToolWindows\Orderer.cs" />
+    <Compile Include="ToolWindows\PriorityClassification.cs" />
+    <Compile Include="ToolWindows\TreeItem.cs" />
     <Compile Include="ToolWindows\ViewModelBase.cs" />
     <Compile Include="VSCommandTable.cs">
       <AutoGen>True</AutoGen>
