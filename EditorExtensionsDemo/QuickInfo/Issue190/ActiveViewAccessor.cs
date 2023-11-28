@@ -1,0 +1,54 @@
+﻿using Microsoft.VisualStudio;
+using Microsoft.VisualStudio.Editor;
+using Microsoft.VisualStudio.Text.Editor;
+using Microsoft.VisualStudio.TextManager.Interop;
+using System.ComponentModel.Composition;
+
+namespace EditorExtensionsDemo
+{
+    [Export(typeof(IActiveViewAccessor))]
+    internal sealed class ActiveViewAccessor : IActiveViewAccessor
+    {
+        private readonly SVsServiceProvider serviceProvider;
+        private readonly IVsEditorAdaptersFactoryService editorAdaptersFactoryService;
+
+        [ImportingConstructor]
+        public ActiveViewAccessor(
+            SVsServiceProvider vsServiceProvider,
+            IVsEditorAdaptersFactoryService editorAdaptersFactoryService)
+        {
+            this.serviceProvider = vsServiceProvider;
+            this.editorAdaptersFactoryService = editorAdaptersFactoryService;
+        }
+
+        public IWpfTextView ActiveView
+        {
+            get
+            {
+                IVsTextManager2 textManager =
+                    serviceProvider.GetService<SVsTextManager, IVsTextManager2>();
+
+                if (textManager == null)
+                {
+                    return null;
+                }
+
+                int hr = textManager.GetActiveView2(
+                    fMustHaveFocus: 1,
+                    pBuffer: null,
+                    grfIncludeViewFrameType: (uint)_VIEWFRAMETYPE.vftCodeWindow,
+                    ppView: out IVsTextView vsTextView);
+
+                if (ErrorHandler.Failed(hr))
+                {
+                    return null;
+                }
+
+                return editorAdaptersFactoryService.GetWpfTextView(vsTextView);
+            }
+        }
+    }
+
+
+
+}

@@ -1,0 +1,100 @@
+(86)-638345163626720576: Received request 0 (node request 0) with parent -1 from node -1
+(86)-638345163626720576: Requesting creation of 1 new node(s) satisfying affinity OutOfProc
+(86)-638345163626720576: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+(86)-638345163627764247: Node 2 created
+(86)-638345163627764247: Executing request 0 on node 2 with parent -1
+(86)-638345163627764247: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(86)-638345163627856777: Received request 1 (node request 0) with parent -1 from node -1
+(86)-638345163627856777: Requesting creation of 1 new node(s) satisfying affinity OutOfProc
+(86)-638345163627856777: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(86)-638345163630517902: Node 3 created
+(86)-638345163630517902: Executing request 1 on node 3 with parent -1
+(86)-638345163630517902: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 1
+(8)-638345163634213510: Received request 2 (node request 1) with parent 0 from node 2
+(8)-638345163634213510: Executing request 2 on node 2 with parent 0
+(8)-638345163634213510: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 1
+(7)-638345163635046897: Reporting result from node 2 for request 2, parent 0.
+(7)-638345163635046897: Unblocking request 0 on node 2
+(7)-638345163635046897: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 2
+(7)-638345163635903255: Received request 3 (node request 2) with parent 0 from node 2
+(7)-638345163635903255: Executing request 3 on node 2 with parent 0
+(7)-638345163635903255: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 1
+(7)-638345163636060351: Reporting result from node 2 for request 3, parent 0.
+(7)-638345163636060351: Unblocking request 0 on node 2
+(7)-638345163636060351: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 2
+(7)-638345163638843392: Received request 4 (node request 1) with parent 1 from node 3
+(7)-638345163638843392: Request 4 (node request 1) satisfied from the cache.
+(7)-638345163638843392: Request 4 (node request 1) with targets (GetTargetFrameworks) satisfied from cache
+(7)-638345163638843392: 02/11/2023 10:06:03: Waiting for existing work to proceed.
+(7)-638345163639843953: Received request 5 (node request 3) with parent 0 from node 2
+(7)-638345163639843953: Executing request 5 on node 2 with parent 0
+(7)-638345163639843953: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 1
+(37)-638345163640035274: Reporting result from node 2 for request 5, parent 0.
+(37)-638345163640035274: Unblocking request 0 on node 2
+(37)-638345163640035274: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 2
+(7)-638345163640395628: Received request 6 (node request 2) with parent 1 from node 3
+(7)-638345163640395628: Request 6 (node request 2) satisfied from the cache.
+(7)-638345163640395628: Request 6 (node request 2) with targets (GetTargetPath) satisfied from cache
+(7)-638345163640395628: 02/11/2023 10:06:04: Waiting for existing work to proceed.
+(7)-638345163641300003: Reporting result from node 2 for request 0, parent -1.
+(7)-638345163641300003: 02/11/2023 10:06:04: Waiting for existing work to proceed.
+(7)-638345163644407721: Received request 7 (node request 3) with parent 1 from node 3
+(7)-638345163644407721: Request 7 (node request 3) satisfied from the cache.
+(7)-638345163644407721: Request 7 (node request 3) with targets (InitializeSourceRootMappedPaths) satisfied from cache
+(7)-638345163644407721: 02/11/2023 10:06:04: Waiting for existing work to proceed.
+(54)-638345163645946708: Reporting result from node 3 for request 1, parent -1.
+(54)-638345163645946708: Build complete
+(54)-638345163736816873: Received request 0 (node request 0) with parent -1 from node -1
+(54)-638345163736816873: Requesting creation of 1 new node(s) satisfying affinity OutOfProc
+(54)-638345163736816873: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+(54)-638345163738364176: Node 2 created
+(54)-638345163738364176: Executing request 0 on node 2 with parent -1
+(54)-638345163738364176: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(7)-638345163750096830: Reporting result from node 2 for request 0, parent -1.
+(7)-638345163750096830: Build complete
+(7)-638345163750481089: Received request 0 (node request 0) with parent -1 from node -1
+(7)-638345163750481089: Requesting creation of 1 new node(s) satisfying affinity OutOfProc
+(7)-638345163750481089: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+(7)-638345163751019572: Node 2 created
+(7)-638345163751019572: Executing request 0 on node 2 with parent -1
+(7)-638345163751019572: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(7)-638345163751091349: Received request 1 (node request 0) with parent -1 from node -1
+(7)-638345163751091349: Requesting creation of 1 new node(s) satisfying affinity OutOfProc
+(7)-638345163751091349: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(7)-638345163751681873: Node 3 created
+(7)-638345163751681873: Executing request 1 on node 3 with parent -1
+(7)-638345163751681873: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 1
+(7)-638345163753314619: Received request 2 (node request 1) with parent 0 from node 2
+(7)-638345163753314619: Executing request 2 on node 2 with parent 0
+(7)-638345163753314619: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 1
+(11)-638345163753780092: Reporting result from node 2 for request 2, parent 0.
+(11)-638345163753780092: Unblocking request 0 on node 2
+(11)-638345163753780092: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 2
+(7)-638345163754066260: Received request 3 (node request 2) with parent 0 from node 2
+(7)-638345163754066260: Executing request 3 on node 2 with parent 0
+(7)-638345163754066260: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 1
+(55)-638345163754219450: Reporting result from node 2 for request 3, parent 0.
+(55)-638345163754219450: Unblocking request 0 on node 2
+(55)-638345163754219450: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 2
+(66)-638345163756299654: Received request 4 (node request 1) with parent 1 from node 3
+(66)-638345163756299654: Request 4 (node request 1) satisfied from the cache.
+(66)-638345163756299654: Request 4 (node request 1) with targets (GetTargetFrameworks) satisfied from cache
+(66)-638345163756299654: 02/11/2023 10:06:15: Waiting for existing work to proceed.
+(80)-638345163756574021: Received request 5 (node request 2) with parent 1 from node 3
+(80)-638345163756574021: Request 5 (node request 2) satisfied from the cache.
+(80)-638345163756574021: Request 5 (node request 2) with targets (GetTargetPath) satisfied from cache
+(80)-638345163756574021: 02/11/2023 10:06:15: Waiting for existing work to proceed.
+(66)-638345163756798301: Received request 6 (node request 3) with parent 0 from node 2
+(66)-638345163756798301: Executing request 6 on node 2 with parent 0
+(66)-638345163756798301: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 1
+(66)-638345163757031984: Reporting result from node 2 for request 6, parent 0.
+(66)-638345163757031984: Unblocking request 0 on node 2
+(66)-638345163757031984: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/2 Responses: 2
+(66)-638345163757985785: Reporting result from node 2 for request 0, parent -1.
+(66)-638345163757985785: 02/11/2023 10:06:15: Waiting for existing work to proceed.
+(66)-638345163758746849: Received request 7 (node request 3) with parent 1 from node 3
+(66)-638345163758746849: Request 7 (node request 3) satisfied from the cache.
+(66)-638345163758746849: Request 7 (node request 3) with targets (InitializeSourceRootMappedPaths) satisfied from cache
+(66)-638345163758746849: 02/11/2023 10:06:15: Waiting for existing work to proceed.
+(66)-638345163759551835: Reporting result from node 3 for request 1, parent -1.
+(66)-638345163759551835: Build complete

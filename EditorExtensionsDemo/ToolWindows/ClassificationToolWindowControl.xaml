@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="EditorExtensionsDemo.ClassificationToolWindowControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:imaging="clr-namespace:Microsoft.VisualStudio.Imaging;assembly=Microsoft.VisualStudio.Imaging"
+             xmlns:theming="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Imaging"
+             xmlns:catalog="clr-namespace:Microsoft.VisualStudio.Imaging;assembly=Microsoft.VisualStudio.ImageCatalog"
+             xmlns:local="clr-namespace:EditorExtensionsDemo"
+             xmlns:toolkit="clr-namespace:Community.VisualStudio.Toolkit;assembly=Community.VisualStudio.Toolkit"
+             toolkit:Themes.UseVsTheme="True"
+             mc:Ignorable="d"
+             d:DesignHeight="300"
+             d:DesignWidth="300"
+             Name="MyToolWindow">
+    <Grid>
+        <Grid>
+            <Grid.Resources>
+                <HierarchicalDataTemplate DataType="{x:Type local:TreeItem}"
+                                          ItemsSource="{Binding Children}">
+                    <local:ClassificationTreeItem DataContext="{Binding}"/>
+                </HierarchicalDataTemplate>
+            </Grid.Resources>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Row="0" Orientation="Horizontal">
+                <TextBox Text="{Binding CategoryInput, UpdateSourceTrigger=PropertyChanged}"/>
+                <Button 
+                    Content="Get IClassificationFormatMap" 
+                    Command="{Binding GetClassificationFormatMap}"
+                    CommandParameter="{Binding CategoryItem}"
+                    />
+            </StackPanel>
+            
+            <TreeView Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ClassificationTree}"/>
+        </Grid>
+    </Grid>
+</UserControl>
