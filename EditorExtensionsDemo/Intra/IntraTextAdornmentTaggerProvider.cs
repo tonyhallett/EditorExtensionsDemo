@@ -68,7 +68,6 @@ namespace EditorExtensionsDemo.Intra
                     var index = text.IndexOf("intra"); // would need to look for multiple occurences
                     if (index != -1)
                     {
-                        Debug.WriteLine("Found intra");
                         var start = line.Start.Add(index);
                         //var snapshotSpan = new SnapshotSpan(start, 5);
                         var snapshotSpan = new SnapshotSpan(start, 0);

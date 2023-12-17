@@ -1,0 +1,40 @@
+OutOfProc Endpoint Packet Pump (TID 4) 638382353816377157 +     0.369ms: Waiting for connection 900000 ms...
+OutOfProc Endpoint Packet Pump (TID 4) 638382353816387570 +    1.0413ms: Parent started connecting. Reading handshake from parent
+OutOfProc Endpoint Packet Pump (TID 4) 638382353816387570 +         0ms: Building handshake for node type X64, NodeReuse, (version 1): options 16777228.
+OutOfProc Endpoint Packet Pump (TID 4) 638382353816401638 +    1.4068ms: Handshake salt is 
+OutOfProc Endpoint Packet Pump (TID 4) 638382353816411701 +    1.0063ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+OutOfProc Endpoint Packet Pump (TID 4) 638382353816470895 +    5.9194ms: Successfully connected to parent.
+OutOfProc Endpoint Packet Pump (TID 4) 638382353816480881 +    0.9986ms: Changing link status from Inactive to Active
+OutOfProc Endpoint Packet Pump (TID 4) 638382353816490884 +    1.0003ms: Entering read loop.
+RequestBuilder thread (TID 12) 638382353845048355 +  2855.747ms: For a host context of TaskHost, spawning executable from C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe.
+RequestBuilder thread (TID 12) 638382353845048355 +         0ms: Building handshake for node type TaskHost, (version 1): options 16777217.
+RequestBuilder thread (TID 12) 638382353845048355 +         0ms: Handshake salt is 
+RequestBuilder thread (TID 12) 638382353845048355 +         0ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+RequestBuilder thread (TID 12) 638382353845189713 +   14.1358ms: Attempting to connect to 1 existing processes 'MSBuild'...
+RequestBuilder thread (TID 12) 638382353845189713 +         0ms: Trying to connect to existing process MSBuild with id 7856 to establish node 1...
+RequestBuilder thread (TID 12) 638382353845189713 +         0ms: Could not connect to existing process, now creating a process...
+RequestBuilder thread (TID 12) 638382353845189713 +         0ms: Launching node from C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+RequestBuilder thread (TID 12) 638382353845335655 +   14.5942ms: Successfully launched C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe node with PID 24932
+RequestBuilder thread (TID 12) 638382353845514931 +   17.9276ms: Attempting connect to PID 24932 with pipe MSBuild24932 with timeout 30000 ms
+RequestBuilder thread (TID 12) 638382353846602771 +   108.784ms: Writing handshake part 0 (16777217) to pipe MSBuild24932
+RequestBuilder thread (TID 12) 638382353846602771 +         0ms: Writing handshake part 1 (-231540569) to pipe MSBuild24932
+RequestBuilder thread (TID 12) 638382353846602771 +         0ms: Writing handshake part 2 (17) to pipe MSBuild24932
+RequestBuilder thread (TID 12) 638382353846602771 +         0ms: Writing handshake part 3 (7) to pipe MSBuild24932
+RequestBuilder thread (TID 12) 638382353846602771 +         0ms: Writing handshake part 4 (2) to pipe MSBuild24932
+RequestBuilder thread (TID 12) 638382353846602771 +         0ms: Writing handshake part 5 (37605) to pipe MSBuild24932
+RequestBuilder thread (TID 12) 638382353846602771 +         0ms: Writing handshake part 6 (1) to pipe MSBuild24932
+RequestBuilder thread (TID 12) 638382353846602771 +         0ms: Reading handshake from pipe MSBuild24932
+RequestBuilder thread (TID 12) 638382353846768625 +   16.5854ms: Successfully connected to pipe MSBuild24932...!
+RequestBuilder thread (TID 12) 638382353846768625 +         0ms: Successfully connected to created node 1 which is PID 24932
+ (TID 1) 638382353908256073 +  6148.745ms: Shutting down with reason: BuildCompleteReuse, and exception: .
+OutOfProc Endpoint Packet Pump (TID 4) 638382353908256073 +         0ms: Disconnecting voluntarily
+OutOfProc Endpoint Packet Pump (TID 4) 638382353908256073 +         0ms: Changing link status from Active to Failed
+OutOfProc Endpoint Packet Pump (TID 4) 638382353908256073 +         0ms: Ending read loop
+ (TID 1) 638382353908256073 +         0ms: Changing link status from Failed to Inactive
+ (TID 1) 638382353908593328 +   33.7255ms: Shut down complete.
+OutOfProc Endpoint Packet Pump (TID 10) 638382353908593328 +         0ms: Waiting for connection 900000 ms...
+OutOfProc Endpoint Packet Pump (TID 10) 638382362908615199 +  900002.2ms: Connection timed out waiting a host to contact us.  Exiting comm thread.
+OutOfProc Endpoint Packet Pump (TID 10) 638382362908615199 +         0ms: Changing link status from Inactive to ConnectionFailed
+ (TID 1) 638382362908615199 +         0ms: Shutting down with reason: ConnectionFailed, and exception: .
+ (TID 1) 638382362908615199 +         0ms: Changing link status from ConnectionFailed to Inactive
+ (TID 1) 638382362908927075 +   31.1876ms: Shut down complete.

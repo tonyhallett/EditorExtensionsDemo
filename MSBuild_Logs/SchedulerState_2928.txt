@@ -1,0 +1,462 @@
+Scheduler state at timestamp 638382590592567257:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (2)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (RuntimeImplementationProjectOutputGroup)
+
+Scheduler state at timestamp 638382590592622342:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [1] RUNNING Executing (2)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (RuntimeImplementationProjectOutputGroup)
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 2 Node 1 TV: Current File C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj
+BuildingInsideVisualStudio = "true"
+DevEnvDir = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\"
+SolutionExt = ".sln"
+SolutionName = "EditorExtensionsDemo"
+SolutionFileName = "EditorExtensionsDemo.sln"
+SolutionPath = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo.sln"
+SolutionDir = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\"
+RunCodeAnalysisOnce = "FALSE"
+Configuration = "Debug"
+Platform = "AnyCPU"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+<ProjectConfiguration Project="{c1427eed-a648-4734-a909-9fc886e7d199}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj">Debug|AnyCPU</ProjectConfiguration>
+<ProjectConfiguration Project="{039f3d74-91af-484e-b116-7a2749ab1bfc}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+VSIDEResolvedNonMSBuildProjectOutputs = "<VSIDEResolvedNonMSBuildProjectOutputs />"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [1] Completed (2)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (RuntimeImplementationProjectOutputGroup)
+Scheduler state at timestamp 638382590625494661:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+
+Scheduler state at timestamp 638382590625988393:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [2] RUNNING Executing (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590628214694:
+------------------------------------------------
+Node 2 Active (1 executing) (2 assigned requests, 2 configurations)
+  0: [2] RUNNING Blocked (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+    !1: [2] RUNNING Executing (4)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (GetTargetFrameworks)
+
+  1: [2] RUNNING Executing (4)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (GetTargetFrameworks)
+    >0: [2] RUNNING Blocked (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590630387345:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [2] RUNNING Executing (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590630594309:
+------------------------------------------------
+Node 2 Active (2 executing) (2 assigned requests, 2 configurations)
+  0: [2] RUNNING Blocked (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+    !2: [2] RUNNING Executing (4)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (GetTargetPath)
+
+  2: [2] RUNNING Executing (4)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (GetTargetPath)
+    >0: [2] RUNNING Blocked (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590630677474:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [2] RUNNING Executing (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590643887932:
+------------------------------------------------
+Node 2 Active (3 executing) (2 assigned requests, 2 configurations)
+  0: [2] RUNNING Blocked (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+    !3: [2] RUNNING Executing (4)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (InitializeSourceRootMappedPaths)
+
+  3: [2] RUNNING Executing (4)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (InitializeSourceRootMappedPaths)
+    >0: [2] RUNNING Blocked (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590644014300:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [2] RUNNING Executing (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 3 Node 2 TV: Current File C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj
+SolutionFileName = "EditorExtensionsDemo.sln"
+LangName = "en-US"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+<ProjectConfiguration Project="{c1427eed-a648-4734-a909-9fc886e7d199}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj">Debug|AnyCPU</ProjectConfiguration>
+<ProjectConfiguration Project="{039f3d74-91af-484e-b116-7a2749ab1bfc}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+Configuration = "Debug"
+LangID = "1033"
+GeneratePackageOnBuild = "false"
+DesignTimeBuild = "true"
+SolutionDir = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\"
+SolutionExt = ".sln"
+BuildingInsideVisualStudio = "true"
+DefineExplicitDefaults = "true"
+ProvideCommandLineArgs = "true"
+Platform = "AnyCPU"
+ResolveAssemblyReferencesSilent = "false"
+SolutionPath = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo.sln"
+SolutionName = "EditorExtensionsDemo"
+SkipCompilerExecution = "true"
+VSIDEResolvedNonMSBuildProjectOutputs = "<VSIDEResolvedNonMSBuildProjectOutputs />"
+ContinueOnError = "ErrorAndContinue"
+DesignTimeSilentResolution = "false"
+DevEnvDir = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\"
+SolutionWorkingFolder = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\.vs\EditorExtensionsDemo"
+
+Config 4 Node 2 TV: Current File C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj
+SolutionFileName = "EditorExtensionsDemo.sln"
+LangName = "en-US"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+<ProjectConfiguration Project="{c1427eed-a648-4734-a909-9fc886e7d199}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj">Debug|AnyCPU</ProjectConfiguration>
+<ProjectConfiguration Project="{039f3d74-91af-484e-b116-7a2749ab1bfc}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+Configuration = "Debug"
+LangID = "1033"
+GeneratePackageOnBuild = "false"
+DesignTimeBuild = "true"
+SolutionDir = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\"
+SolutionExt = ".sln"
+BuildingInsideVisualStudio = "true"
+DefineExplicitDefaults = "true"
+ProvideCommandLineArgs = "true"
+Platform = "AnyCPU"
+ResolveAssemblyReferencesSilent = "false"
+SolutionPath = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo.sln"
+SolutionName = "EditorExtensionsDemo"
+SkipCompilerExecution = "true"
+VSIDEResolvedNonMSBuildProjectOutputs = "<VSIDEResolvedNonMSBuildProjectOutputs />"
+ContinueOnError = "ErrorAndContinue"
+DesignTimeSilentResolution = "false"
+DevEnvDir = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\"
+SolutionWorkingFolder = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\.vs\EditorExtensionsDemo"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [2] Completed (3)C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj (ResolveFrameworkReferencesDesignTime, ResolveProjectReferencesDesignTime2, CollectResolvedSDKReferencesDesignTime, CollectPackageReferences, ResolveComReferencesDesignTime, BuiltProjectOutputGroup, CollectFrameworkReferences, CollectUpToDateCheckBuiltDesignTime, CollectPackageDownloads, ResolveAssemblyReferencesDesignTime, GenerateSupportedTargetFrameworkAlias, CollectAnalyzersDesignTime, CollectUpToDateCheckInputDesignTime, CollectUpToDateCheckOutputDesignTime, ResolvePackageDependenciesDesignTime, CollectSuggestedWorkloads, CollectCentralPackageVersions, CompileDesignTime, CollectCopyToOutputDirectoryItemDesignTime, CollectResolvedCompilationReferencesDesignTime)
+  1: [2] Completed (4)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (GetTargetFrameworks)
+  2: [2] Completed (4)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (GetTargetPath)
+  3: [2] Completed (4)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (InitializeSourceRootMappedPaths)
+Scheduler state at timestamp 638382590881971087:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+Scheduler state at timestamp 638382590882326504:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [2] RUNNING Executing (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590898206122:
+------------------------------------------------
+Node 2 Active (1 executing) (2 assigned requests, 2 configurations)
+  0: [2] RUNNING Blocked (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+    !1: [2] RUNNING Executing (6)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_yuvbud5x_wpftmp.csproj (_CompileTemporaryAssembly)
+
+  1: [2] RUNNING Executing (6)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_yuvbud5x_wpftmp.csproj (_CompileTemporaryAssembly)
+    >0: [2] RUNNING Blocked (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590902126206:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [2] RUNNING Executing (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590944202222:
+------------------------------------------------
+Node 2 Active (2 executing) (2 assigned requests, 2 configurations)
+  0: [2] RUNNING Blocked (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+    !2: [2] RUNNING Executing (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (PkgdefProjectOutputGroup)
+
+  2: [2] RUNNING Executing (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (PkgdefProjectOutputGroup)
+    >0: [2] RUNNING Blocked (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590944247442:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [2] RUNNING Executing (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590944291557:
+------------------------------------------------
+Node 2 Active (3 executing) (2 assigned requests, 2 configurations)
+  0: [2] RUNNING Blocked (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+    !3: [2] RUNNING Executing (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, GetCopyToOutputDirectoryItems, SatelliteDllsProjectOutputGroup)
+
+  3: [2] RUNNING Executing (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, GetCopyToOutputDirectoryItems, SatelliteDllsProjectOutputGroup)
+    >0: [2] RUNNING Blocked (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382590944424991:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [2] RUNNING Executing (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 5 Node 2 TV: Current File C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj
+BuildingInsideVisualStudio = "true"
+DevEnvDir = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\"
+SolutionExt = ".sln"
+SolutionName = "EditorExtensionsDemo"
+SolutionFileName = "EditorExtensionsDemo.sln"
+SolutionPath = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo.sln"
+SolutionDir = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\"
+RunCodeAnalysisOnce = "FALSE"
+Configuration = "Debug"
+Platform = "AnyCPU"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+<ProjectConfiguration Project="{c1427eed-a648-4734-a909-9fc886e7d199}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj">Debug|AnyCPU</ProjectConfiguration>
+<ProjectConfiguration Project="{039f3d74-91af-484e-b116-7a2749ab1bfc}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+VSIDEResolvedNonMSBuildProjectOutputs = "<VSIDEResolvedNonMSBuildProjectOutputs />"
+
+Config 6 Node 2 TV: Current File C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_yuvbud5x_wpftmp.csproj
+BuildingInsideVisualStudio = "true"
+DevEnvDir = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\"
+SolutionExt = ".sln"
+SolutionName = "EditorExtensionsDemo"
+SolutionFileName = "EditorExtensionsDemo.sln"
+SolutionPath = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo.sln"
+SolutionDir = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\"
+RunCodeAnalysisOnce = "FALSE"
+Configuration = "Debug"
+Platform = "AnyCPU"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+<ProjectConfiguration Project="{c1427eed-a648-4734-a909-9fc886e7d199}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj">Debug|AnyCPU</ProjectConfiguration>
+<ProjectConfiguration Project="{039f3d74-91af-484e-b116-7a2749ab1bfc}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+VSIDEResolvedNonMSBuildProjectOutputs = "<VSIDEResolvedNonMSBuildProjectOutputs />"
+AssemblyName = "EditorExtensionsDemo"
+IntermediateOutputPath = "obj\Debug\"
+_TargetAssemblyProjectName = "EditorExtensionsDemo"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [2] Completed (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+  1: [2] Completed (6)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_yuvbud5x_wpftmp.csproj (_CompileTemporaryAssembly)
+  2: [2] Completed (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (PkgdefProjectOutputGroup)
+  3: [2] Completed (5)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, GetCopyToOutputDirectoryItems, SatelliteDllsProjectOutputGroup)
+Scheduler state at timestamp 638382593789848585:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (7)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+Scheduler state at timestamp 638382593790157194:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [2] RUNNING Executing (7)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382593805621253:
+------------------------------------------------
+Node 2 Active (1 executing) (2 assigned requests, 2 configurations)
+  0: [2] RUNNING Blocked (7)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+    !1: [2] RUNNING Executing (8)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_dcwapa0h_wpftmp.csproj (_CompileTemporaryAssembly)
+
+  1: [2] RUNNING Executing (8)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_dcwapa0h_wpftmp.csproj (_CompileTemporaryAssembly)
+    >0: [2] RUNNING Blocked (7)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382593808223397:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [2] RUNNING Executing (7)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 7 Node 2 TV: Current File C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj
+BuildingInsideVisualStudio = "true"
+DevEnvDir = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\"
+SolutionExt = ".sln"
+SolutionName = "EditorExtensionsDemo"
+SolutionFileName = "EditorExtensionsDemo.sln"
+SolutionPath = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo.sln"
+SolutionDir = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\"
+RunCodeAnalysisOnce = "FALSE"
+Configuration = "Debug"
+Platform = "AnyCPU"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+<ProjectConfiguration Project="{c1427eed-a648-4734-a909-9fc886e7d199}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj">Debug|AnyCPU</ProjectConfiguration>
+<ProjectConfiguration Project="{039f3d74-91af-484e-b116-7a2749ab1bfc}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+VSIDEResolvedNonMSBuildProjectOutputs = "<VSIDEResolvedNonMSBuildProjectOutputs />"
+
+Config 8 Node 2 TV: Current File C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_dcwapa0h_wpftmp.csproj
+BuildingInsideVisualStudio = "true"
+DevEnvDir = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\"
+SolutionExt = ".sln"
+SolutionName = "EditorExtensionsDemo"
+SolutionFileName = "EditorExtensionsDemo.sln"
+SolutionPath = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo.sln"
+SolutionDir = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\"
+RunCodeAnalysisOnce = "FALSE"
+Configuration = "Debug"
+Platform = "AnyCPU"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+<ProjectConfiguration Project="{c1427eed-a648-4734-a909-9fc886e7d199}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj">Debug|AnyCPU</ProjectConfiguration>
+<ProjectConfiguration Project="{039f3d74-91af-484e-b116-7a2749ab1bfc}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+VSIDEResolvedNonMSBuildProjectOutputs = "<VSIDEResolvedNonMSBuildProjectOutputs />"
+AssemblyName = "EditorExtensionsDemo"
+IntermediateOutputPath = "obj\Debug\"
+_TargetAssemblyProjectName = "EditorExtensionsDemo"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [2] Completed (7)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+  1: [2] Completed (8)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_dcwapa0h_wpftmp.csproj (_CompileTemporaryAssembly)
+Scheduler state at timestamp 638382594012221241:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+Scheduler state at timestamp 638382594012524491:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [2] RUNNING Executing (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382594025043571:
+------------------------------------------------
+Node 2 Active (1 executing) (2 assigned requests, 2 configurations)
+  0: [2] RUNNING Blocked (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+    !1: [2] RUNNING Executing (10)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_5arhjem5_wpftmp.csproj (_CompileTemporaryAssembly)
+
+  1: [2] RUNNING Executing (10)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_5arhjem5_wpftmp.csproj (_CompileTemporaryAssembly)
+    >0: [2] RUNNING Blocked (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382594027322424:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [2] RUNNING Executing (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382594066821261:
+------------------------------------------------
+Node 2 Active (2 executing) (2 assigned requests, 2 configurations)
+  0: [2] RUNNING Blocked (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+    !2: [2] RUNNING Executing (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (PkgdefProjectOutputGroup)
+
+  2: [2] RUNNING Executing (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (PkgdefProjectOutputGroup)
+    >0: [2] RUNNING Blocked (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382594066877303:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [2] RUNNING Executing (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382594066922974:
+------------------------------------------------
+Node 2 Active (3 executing) (2 assigned requests, 2 configurations)
+  0: [2] RUNNING Blocked (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+    !3: [2] RUNNING Executing (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, GetCopyToOutputDirectoryItems, SatelliteDllsProjectOutputGroup)
+
+  3: [2] RUNNING Executing (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, GetCopyToOutputDirectoryItems, SatelliteDllsProjectOutputGroup)
+    >0: [2] RUNNING Blocked (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638382594067034610:
+------------------------------------------------
+Node 2 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [2] RUNNING Executing (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 9 Node 2 TV: Current File C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj
+BuildingInsideVisualStudio = "true"
+DevEnvDir = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\"
+SolutionExt = ".sln"
+SolutionName = "EditorExtensionsDemo"
+SolutionFileName = "EditorExtensionsDemo.sln"
+SolutionPath = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo.sln"
+SolutionDir = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\"
+RunCodeAnalysisOnce = "FALSE"
+Configuration = "Debug"
+Platform = "AnyCPU"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+<ProjectConfiguration Project="{c1427eed-a648-4734-a909-9fc886e7d199}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj">Debug|AnyCPU</ProjectConfiguration>
+<ProjectConfiguration Project="{039f3d74-91af-484e-b116-7a2749ab1bfc}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+VSIDEResolvedNonMSBuildProjectOutputs = "<VSIDEResolvedNonMSBuildProjectOutputs />"
+
+Config 10 Node 2 TV: Current File C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_5arhjem5_wpftmp.csproj
+BuildingInsideVisualStudio = "true"
+DevEnvDir = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\"
+SolutionExt = ".sln"
+SolutionName = "EditorExtensionsDemo"
+SolutionFileName = "EditorExtensionsDemo.sln"
+SolutionPath = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo.sln"
+SolutionDir = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\"
+RunCodeAnalysisOnce = "FALSE"
+Configuration = "Debug"
+Platform = "AnyCPU"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+<ProjectConfiguration Project="{c1427eed-a648-4734-a909-9fc886e7d199}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj">Debug|AnyCPU</ProjectConfiguration>
+<ProjectConfiguration Project="{039f3d74-91af-484e-b116-7a2749ab1bfc}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\ClassificationDemoTests\ClassificationDemoTests.csproj">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+VSIDEResolvedNonMSBuildProjectOutputs = "<VSIDEResolvedNonMSBuildProjectOutputs />"
+AssemblyName = "EditorExtensionsDemo"
+IntermediateOutputPath = "obj\Debug\"
+_TargetAssemblyProjectName = "EditorExtensionsDemo"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [2] Completed (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (Build, BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, DebugSymbolsProjectOutputGroup, DebugSymbolsProjectOutputGroupDependencies, DocumentationProjectOutputGroup, DocumentationProjectOutputGroupDependencies, SatelliteDllsProjectOutputGroup, SatelliteDllsProjectOutputGroupDependencies, SGenFilesOutputGroup, SGenFilesOutputGroupDependencies)
+  1: [2] Completed (10)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo_5arhjem5_wpftmp.csproj (_CompileTemporaryAssembly)
+  2: [2] Completed (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (PkgdefProjectOutputGroup)
+  3: [2] Completed (9)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (BuiltProjectOutputGroup, BuiltProjectOutputGroupDependencies, GetCopyToOutputDirectoryItems, SatelliteDllsProjectOutputGroup)

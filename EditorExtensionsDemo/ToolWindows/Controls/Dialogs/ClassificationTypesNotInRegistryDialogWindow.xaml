@@ -1,0 +1,44 @@
+﻿<platform:DialogWindow  x:Class="EditorExtensionsDemo.ToolWindows.ClassificationTypesNotInRegistryDialogWindow"
+                        x:ClassModifier="internal"
+                        Title="Classification Types Not In Registry"
+                        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                        xmlns:platform="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.15.0"
+                        xmlns:toolkit="clr-namespace:Community.VisualStudio.Toolkit;assembly=Community.VisualStudio.Toolkit"
+                        xmlns:controls="clr-namespace:EditorExtensionsDemo.ToolWindows.Controls"
+                        toolkit:Themes.UseVsTheme="True"
+                        mc:Ignorable="d"
+                        Width="600"
+                        Height="400"
+                        d:DesignHeight="600"
+                        d:DesignWidth="400">
+
+    <controls:WpfListView DataContext="{Binding}"/>
+
+    
+    <!--<ListView ItemsSource="{Binding ClassificationEditorFormatDefinitionClassificationTypesNotInRegistryViewModel}">
+        <ListView.Style>
+            <Style TargetType="{x:Type ListView}"/>
+        </ListView.Style>
+        <ListView.View>
+            <GridView>
+                <GridViewColumn Header="Name">
+                    <GridViewColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" />
+                        </DataTemplate>
+                    </GridViewColumn.CellTemplate>
+                </GridViewColumn>
+                <GridViewColumn Header="Types Not In Registry">
+                    <GridViewColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding TypesNotInRegistry}" />
+                        </DataTemplate>
+                    </GridViewColumn.CellTemplate>
+                </GridViewColumn>
+            </GridView>
+        </ListView.View>
+    </ListView>-->
+</platform:DialogWindow>

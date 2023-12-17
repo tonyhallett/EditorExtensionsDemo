@@ -1,0 +1,34 @@
+Scheduler state at timestamp 638376407222271703:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (2)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (RuntimeImplementationProjectOutputGroup)
+
+Scheduler state at timestamp 638376407222332286:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [1] RUNNING Executing (2)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (RuntimeImplementationProjectOutputGroup)
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 2 Node 1 TV: Current File C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj
+BuildingInsideVisualStudio = "true"
+DevEnvDir = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\"
+SolutionExt = ".sln"
+SolutionName = "EditorExtensionsDemo"
+SolutionFileName = "EditorExtensionsDemo.sln"
+SolutionPath = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo.sln"
+SolutionDir = "C:\Users\tonyh\source\repos\EditorExtensionsDemo\"
+RunCodeAnalysisOnce = "FALSE"
+Configuration = "Debug"
+Platform = "AnyCPU"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+<ProjectConfiguration Project="{c1427eed-a648-4734-a909-9fc886e7d199}" AbsolutePath="C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+VSIDEResolvedNonMSBuildProjectOutputs = "<VSIDEResolvedNonMSBuildProjectOutputs />"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [1] Completed (2)C:\Users\tonyh\source\repos\EditorExtensionsDemo\EditorExtensionsDemo\EditorExtensionsDemo.csproj (RuntimeImplementationProjectOutputGroup)

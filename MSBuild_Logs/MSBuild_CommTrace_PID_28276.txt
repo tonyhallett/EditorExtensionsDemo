@@ -10,3 +10,153 @@ OutOfProc Endpoint Packet Pump (TID 4) 638367868647217478 +  5498.584ms: Disconn
 OutOfProc Endpoint Packet Pump (TID 4) 638367868647227497 +    1.0019ms: Changing link status from Active to Failed
 OutOfProc Endpoint Packet Pump (TID 4) 638367868647227497 +         0ms: Ending read loop
  (TID 1) 638367868647237501 +    1.0004ms: Changing link status from Failed to Inactive
+ (TID 32) 638374530357037735 +         0ms: Starting to acquire 1 new or existing node(s) to establish nodes from ID 2 to 2...
+ (TID 32) 638374530357037735 +         0ms: Building handshake for node type X64, NodeReuse, (version 1): options 16777228.
+ (TID 32) 638374530357193832 +   15.6097ms: Handshake salt is 
+ (TID 32) 638374530357198928 +    0.5096ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+ (TID 32) 638374530357211778 +     1.285ms: Could not connect to existing process, now creating a process...
+ (TID 32) 638374530357300772 +    8.8994ms: Launching node from C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe
+ (TID 32) 638374530357507644 +   20.6872ms: Successfully launched C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe node with PID 1316
+ (TID 32) 638374530357507644 +         0ms: Attempting connect to PID 1316 with pipe MSBuild1316 with timeout 30000 ms
+ (TID 32) 638374530363334779 +  582.7135ms: Writing handshake part 0 (16777228) to pipe MSBuild1316
+ (TID 32) 638374530363334779 +         0ms: Writing handshake part 1 (-231540569) to pipe MSBuild1316
+ (TID 32) 638374530363334779 +         0ms: Writing handshake part 2 (17) to pipe MSBuild1316
+ (TID 32) 638374530363334779 +         0ms: Writing handshake part 3 (7) to pipe MSBuild1316
+ (TID 32) 638374530363334779 +         0ms: Writing handshake part 4 (2) to pipe MSBuild1316
+ (TID 32) 638374530363334779 +         0ms: Writing handshake part 5 (37605) to pipe MSBuild1316
+ (TID 32) 638374530363334779 +         0ms: Writing handshake part 6 (20) to pipe MSBuild1316
+ (TID 32) 638374530363334779 +         0ms: Reading handshake from pipe MSBuild1316
+ (TID 32) 638374530363490204 +   15.5425ms: Successfully connected to pipe MSBuild1316...!
+ (TID 32) 638374530363490204 +         0ms: Successfully connected to created node 2 which is PID 1316
+ (TID 58) 638374536929762821 +  656627.3ms: Starting to acquire 1 new or existing node(s) to establish nodes from ID 2 to 2...
+ (TID 58) 638374536929762821 +         0ms: Building handshake for node type X64, NodeReuse, (version 1): options 16777228.
+ (TID 58) 638374536929762821 +         0ms: Handshake salt is 
+ (TID 58) 638374536929762821 +         0ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+ (TID 58) 638374536929762821 +         0ms: Attempting to connect to 1 existing processes 'MSBuild'...
+ (TID 58) 638374536929762821 +         0ms: Trying to connect to existing process MSBuild with id 1316 to establish node 2...
+ (TID 58) 638374536929762821 +         0ms: Attempting connect to PID 1316 with pipe MSBuild1316 with timeout 0 ms
+ (TID 58) 638374536929762821 +         0ms: Writing handshake part 0 (16777228) to pipe MSBuild1316
+ (TID 58) 638374536929762821 +         0ms: Writing handshake part 1 (-231540569) to pipe MSBuild1316
+ (TID 58) 638374536929762821 +         0ms: Writing handshake part 2 (17) to pipe MSBuild1316
+ (TID 58) 638374536929762821 +         0ms: Writing handshake part 3 (7) to pipe MSBuild1316
+ (TID 58) 638374536929762821 +         0ms: Writing handshake part 4 (2) to pipe MSBuild1316
+ (TID 58) 638374536929762821 +         0ms: Writing handshake part 5 (37605) to pipe MSBuild1316
+ (TID 58) 638374536929762821 +         0ms: Writing handshake part 6 (20) to pipe MSBuild1316
+ (TID 58) 638374536929762821 +         0ms: Reading handshake from pipe MSBuild1316
+ (TID 58) 638374536929989199 +   22.6378ms: Successfully connected to pipe MSBuild1316...!
+ (TID 58) 638374536929989199 +         0ms: Successfully connected to existed node 2 which is PID 1316
+ (TID 97) 638374537785740464 +  85575.13ms: Starting to acquire 1 new or existing node(s) to establish nodes from ID 2 to 2...
+ (TID 97) 638374537785740464 +         0ms: Building handshake for node type X64, NodeReuse, (version 1): options 16777228.
+ (TID 97) 638374537785740464 +         0ms: Handshake salt is 
+ (TID 97) 638374537785740464 +         0ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+ (TID 97) 638374537785851102 +   11.0638ms: Attempting to connect to 1 existing processes 'MSBuild'...
+ (TID 97) 638374537785851102 +         0ms: Trying to connect to existing process MSBuild with id 1316 to establish node 2...
+ (TID 97) 638374537785851102 +         0ms: Attempting connect to PID 1316 with pipe MSBuild1316 with timeout 0 ms
+ (TID 97) 638374537785851102 +         0ms: Writing handshake part 0 (16777228) to pipe MSBuild1316
+ (TID 97) 638374537785851102 +         0ms: Writing handshake part 1 (-231540569) to pipe MSBuild1316
+ (TID 97) 638374537785851102 +         0ms: Writing handshake part 2 (17) to pipe MSBuild1316
+ (TID 97) 638374537785851102 +         0ms: Writing handshake part 3 (7) to pipe MSBuild1316
+ (TID 97) 638374537785851102 +         0ms: Writing handshake part 4 (2) to pipe MSBuild1316
+ (TID 97) 638374537785851102 +         0ms: Writing handshake part 5 (37605) to pipe MSBuild1316
+ (TID 97) 638374537785851102 +         0ms: Writing handshake part 6 (20) to pipe MSBuild1316
+ (TID 97) 638374537785851102 +         0ms: Reading handshake from pipe MSBuild1316
+ (TID 97) 638374537785851102 +         0ms: Successfully connected to pipe MSBuild1316...!
+ (TID 97) 638374537785851102 +         0ms: Successfully connected to existed node 2 which is PID 1316
+ (TID 75) 638374542904950532 +  511909.9ms: Starting to acquire 1 new or existing node(s) to establish nodes from ID 2 to 2...
+ (TID 75) 638374542904960534 +    1.0002ms: Building handshake for node type X64, NodeReuse, (version 1): options 16777228.
+ (TID 75) 638374542904970526 +    0.9992ms: Handshake salt is 
+ (TID 75) 638374542904970526 +         0ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+ (TID 75) 638374542905058062 +    8.7536ms: Attempting to connect to 1 existing processes 'MSBuild'...
+ (TID 75) 638374542905068076 +    1.0014ms: Trying to connect to existing process MSBuild with id 1316 to establish node 2...
+ (TID 75) 638374542905068076 +         0ms: Attempting connect to PID 1316 with pipe MSBuild1316 with timeout 0 ms
+ (TID 75) 638374542905078060 +    0.9984ms: Writing handshake part 0 (16777228) to pipe MSBuild1316
+ (TID 75) 638374542905078060 +         0ms: Writing handshake part 1 (-231540569) to pipe MSBuild1316
+ (TID 75) 638374542905088064 +    1.0004ms: Writing handshake part 2 (17) to pipe MSBuild1316
+ (TID 75) 638374542905088064 +         0ms: Writing handshake part 3 (7) to pipe MSBuild1316
+ (TID 75) 638374542905098115 +    1.0051ms: Writing handshake part 4 (2) to pipe MSBuild1316
+ (TID 75) 638374542905098115 +         0ms: Writing handshake part 5 (37605) to pipe MSBuild1316
+ (TID 75) 638374542905098115 +         0ms: Writing handshake part 6 (20) to pipe MSBuild1316
+ (TID 75) 638374542905109948 +    1.1833ms: Reading handshake from pipe MSBuild1316
+ (TID 75) 638374542905176109 +    6.6161ms: Successfully connected to pipe MSBuild1316...!
+ (TID 75) 638374542905176109 +         0ms: Successfully connected to existed node 2 which is PID 1316
+ (TID 24) 638374552820110745 +  991493.4ms: Starting to acquire 1 new or existing node(s) to establish nodes from ID 2 to 2...
+ (TID 24) 638374552820110745 +         0ms: Building handshake for node type X64, NodeReuse, (version 1): options 16777228.
+ (TID 24) 638374552820110745 +         0ms: Handshake salt is 
+ (TID 24) 638374552820110745 +         0ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+ (TID 24) 638374552820110745 +         0ms: Could not connect to existing process, now creating a process...
+ (TID 24) 638374552820110745 +         0ms: Launching node from C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe
+ (TID 24) 638374552820267726 +   15.6981ms: Successfully launched C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe node with PID 4280
+ (TID 24) 638374552820343988 +    7.6262ms: Attempting connect to PID 4280 with pipe MSBuild4280 with timeout 30000 ms
+ (TID 24) 638374552821793015 +  144.9027ms: Writing handshake part 0 (16777228) to pipe MSBuild4280
+ (TID 24) 638374552821808211 +    1.5196ms: Writing handshake part 1 (-231540569) to pipe MSBuild4280
+ (TID 24) 638374552821808211 +         0ms: Writing handshake part 2 (17) to pipe MSBuild4280
+ (TID 24) 638374552821818291 +     1.008ms: Writing handshake part 3 (7) to pipe MSBuild4280
+ (TID 24) 638374552821818291 +         0ms: Writing handshake part 4 (2) to pipe MSBuild4280
+ (TID 24) 638374552821828348 +    1.0057ms: Writing handshake part 5 (37605) to pipe MSBuild4280
+ (TID 24) 638374552821838301 +    0.9953ms: Writing handshake part 6 (20) to pipe MSBuild4280
+ (TID 24) 638374552821848301 +         1ms: Reading handshake from pipe MSBuild4280
+ (TID 24) 638374552821914624 +    6.6323ms: Successfully connected to pipe MSBuild4280...!
+ (TID 24) 638374552821914624 +         0ms: Successfully connected to created node 2 which is PID 4280
+ (TID 48) 638374560293643701 +  747172.9ms: Starting to acquire 1 new or existing node(s) to establish nodes from ID 2 to 2...
+ (TID 48) 638374560293643701 +         0ms: Building handshake for node type X64, NodeReuse, (version 1): options 16777228.
+ (TID 48) 638374560293658763 +    1.5062ms: Handshake salt is 
+ (TID 48) 638374560293658763 +         0ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+ (TID 48) 638374560293728963 +      7.02ms: Attempting to connect to 1 existing processes 'MSBuild'...
+ (TID 48) 638374560293728963 +         0ms: Trying to connect to existing process MSBuild with id 4280 to establish node 2...
+ (TID 48) 638374560293728963 +         0ms: Attempting connect to PID 4280 with pipe MSBuild4280 with timeout 0 ms
+ (TID 48) 638374560293728963 +         0ms: Writing handshake part 0 (16777228) to pipe MSBuild4280
+ (TID 48) 638374560293728963 +         0ms: Writing handshake part 1 (-231540569) to pipe MSBuild4280
+ (TID 48) 638374560293728963 +         0ms: Writing handshake part 2 (17) to pipe MSBuild4280
+ (TID 48) 638374560293728963 +         0ms: Writing handshake part 3 (7) to pipe MSBuild4280
+ (TID 48) 638374560293728963 +         0ms: Writing handshake part 4 (2) to pipe MSBuild4280
+ (TID 48) 638374560293728963 +         0ms: Writing handshake part 5 (37605) to pipe MSBuild4280
+ (TID 48) 638374560293728963 +         0ms: Writing handshake part 6 (20) to pipe MSBuild4280
+ (TID 48) 638374560293728963 +         0ms: Reading handshake from pipe MSBuild4280
+ (TID 48) 638374560293909722 +   18.0759ms: Successfully connected to pipe MSBuild4280...!
+ (TID 48) 638374560293916482 +     0.676ms: Successfully connected to existed node 2 which is PID 4280
+ (TID 87) 638374561427156513 +    113324ms: Starting to acquire 1 new or existing node(s) to establish nodes from ID 2 to 2...
+ (TID 87) 638374561427172368 +    1.5855ms: Building handshake for node type X64, NodeReuse, (version 1): options 16777228.
+ (TID 87) 638374561427172368 +         0ms: Handshake salt is 
+ (TID 87) 638374561427185130 +    1.2762ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+ (TID 87) 638374561427253891 +    6.8761ms: Attempting to connect to 1 existing processes 'MSBuild'...
+ (TID 87) 638374561427253891 +         0ms: Trying to connect to existing process MSBuild with id 4280 to establish node 2...
+ (TID 87) 638374561427253891 +         0ms: Attempting connect to PID 4280 with pipe MSBuild4280 with timeout 0 ms
+ (TID 87) 638374561427253891 +         0ms: Writing handshake part 0 (16777228) to pipe MSBuild4280
+ (TID 87) 638374561427253891 +         0ms: Writing handshake part 1 (-231540569) to pipe MSBuild4280
+ (TID 87) 638374561427253891 +         0ms: Writing handshake part 2 (17) to pipe MSBuild4280
+ (TID 87) 638374561427253891 +         0ms: Writing handshake part 3 (7) to pipe MSBuild4280
+ (TID 87) 638374561427253891 +         0ms: Writing handshake part 4 (2) to pipe MSBuild4280
+ (TID 87) 638374561427311405 +    5.7514ms: Writing handshake part 5 (37605) to pipe MSBuild4280
+ (TID 87) 638374561427317780 +    0.6375ms: Writing handshake part 6 (20) to pipe MSBuild4280
+ (TID 87) 638374561427317780 +         0ms: Reading handshake from pipe MSBuild4280
+ (TID 87) 638374561427405989 +    8.8209ms: Successfully connected to pipe MSBuild4280...!
+ (TID 87) 638374561427405989 +         0ms: Successfully connected to existed node 2 which is PID 4280
+ (TID 16) 638374570447577787 +  902017.3ms: Starting to acquire 1 new or existing node(s) to establish nodes from ID 2 to 2...
+ (TID 16) 638374570447602565 +    2.4778ms: Building handshake for node type X64, NodeReuse, (version 1): options 16777228.
+ (TID 16) 638374570447602565 +         0ms: Handshake salt is 
+ (TID 16) 638374570447602565 +         0ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+ (TID 16) 638374570447602565 +         0ms: Attempting to connect to 1 existing processes 'MSBuild'...
+ (TID 16) 638374570447602565 +         0ms: Trying to connect to existing process MSBuild with id 4280 to establish node 2...
+ (TID 16) 638374570447602565 +         0ms: Attempting connect to PID 4280 with pipe MSBuild4280 with timeout 0 ms
+ (TID 16) 638374570447602565 +         0ms: Writing handshake part 0 (16777228) to pipe MSBuild4280
+ (TID 16) 638374570447602565 +         0ms: Writing handshake part 1 (-231540569) to pipe MSBuild4280
+ (TID 16) 638374570447602565 +         0ms: Writing handshake part 2 (17) to pipe MSBuild4280
+ (TID 16) 638374570447602565 +         0ms: Writing handshake part 3 (7) to pipe MSBuild4280
+ (TID 16) 638374570447602565 +         0ms: Writing handshake part 4 (2) to pipe MSBuild4280
+ (TID 16) 638374570447722670 +   12.0105ms: Writing handshake part 5 (37605) to pipe MSBuild4280
+ (TID 16) 638374570447722670 +         0ms: Writing handshake part 6 (20) to pipe MSBuild4280
+ (TID 16) 638374570447722670 +         0ms: Reading handshake from pipe MSBuild4280
+ (TID 16) 638374570447722670 +         0ms: Successfully connected to pipe MSBuild4280...!
+ (TID 16) 638374570447722670 +         0ms: Successfully connected to existed node 2 which is PID 4280
+OutOfProc Endpoint Packet Pump (TID 4) 638381471764165103 +    0.9767ms: Waiting for connection 900000 ms...
+OutOfProc Endpoint Packet Pump (TID 4) 638381471764264355 +    9.9252ms: Parent started connecting. Reading handshake from parent
+OutOfProc Endpoint Packet Pump (TID 4) 638381471764274348 +    0.9993ms: Building handshake for node type TaskHost, (version 1): options 16777217.
+OutOfProc Endpoint Packet Pump (TID 4) 638381471764274348 +         0ms: Handshake salt is 
+OutOfProc Endpoint Packet Pump (TID 4) 638381471764284331 +    0.9983ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+OutOfProc Endpoint Packet Pump (TID 4) 638381471764367280 +    8.2949ms: Successfully connected to parent.
+OutOfProc Endpoint Packet Pump (TID 4) 638381471764377311 +    1.0031ms: Changing link status from Inactive to Active
+OutOfProc Endpoint Packet Pump (TID 4) 638381471764387335 +    1.0024ms: Entering read loop.
+OutOfProc Endpoint Packet Pump (TID 4) 638381471811476567 +  4708.923ms: Disconnecting voluntarily
+OutOfProc Endpoint Packet Pump (TID 4) 638381471811486569 +    1.0002ms: Changing link status from Active to Failed
+OutOfProc Endpoint Packet Pump (TID 4) 638381471811486569 +         0ms: Ending read loop
+ (TID 1) 638381471811496621 +    1.0052ms: Changing link status from Failed to Inactive

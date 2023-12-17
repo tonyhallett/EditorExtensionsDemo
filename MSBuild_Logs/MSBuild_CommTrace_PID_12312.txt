@@ -49,3 +49,23 @@
  (TID 70) 638367877790372289 +         0ms: Reading handshake from pipe MSBuild11864
  (TID 70) 638367877790495412 +   12.3123ms: Successfully connected to pipe MSBuild11864...!
  (TID 70) 638367877790495412 +         0ms: Successfully connected to existed node 2 which is PID 11864
+ (TID 1) 638367880080851417 +  229035.6ms: Building handshake for node type X64, (version 1): options 16777220.
+ (TID 1) 638367880080851417 +         0ms: Handshake salt is 
+ (TID 1) 638367880080851417 +         0ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+ (TID 1) 638367880080851417 +         0ms: Trying shutdown server node.
+ (TID 1) 638367880080851417 +         0ms: No need to shutdown server node for it is not running.
+ (TID 1) 638367880080992400 +   14.0983ms: MSBUILDNODEHANDSHAKESALT="", msbuildDirectory="C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin", enableNodeReuse=True, enableLowPriority=False
+ (TID 1) 638367880080992400 +         0ms: Building handshake for node type X64, NodeReuse, (version 1): options 16777228.
+ (TID 1) 638367880081028360 +     3.596ms: Handshake salt is 
+ (TID 1) 638367880081028360 +         0ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+ (TID 1) 638367880081028360 +         0ms: Attempting connect to PID 11864 with pipe MSBuild11864 with timeout 30 ms
+ (TID 1) 638367880081028360 +         0ms: Writing handshake part 0 (16777228) to pipe MSBuild11864
+ (TID 1) 638367880081094586 +    6.6226ms: Writing handshake part 1 (-231540569) to pipe MSBuild11864
+ (TID 1) 638367880081094586 +         0ms: Writing handshake part 2 (17) to pipe MSBuild11864
+ (TID 1) 638367880081094586 +         0ms: Writing handshake part 3 (7) to pipe MSBuild11864
+ (TID 1) 638367880081094586 +         0ms: Writing handshake part 4 (2) to pipe MSBuild11864
+ (TID 1) 638367880081094586 +         0ms: Writing handshake part 5 (37605) to pipe MSBuild11864
+ (TID 1) 638367880081094586 +         0ms: Writing handshake part 6 (14) to pipe MSBuild11864
+ (TID 1) 638367880081094586 +         0ms: Reading handshake from pipe MSBuild11864
+ (TID 1) 638367880081149752 +    5.5166ms: Successfully connected to pipe MSBuild11864...!
+ (TID 1) 638367880081149752 +         0ms: Shutting down node with pid = 11864

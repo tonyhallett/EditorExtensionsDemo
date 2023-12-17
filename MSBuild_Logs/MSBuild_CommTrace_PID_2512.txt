@@ -174,3 +174,15 @@ OutOfProc Endpoint Packet Pump (TID 41) 638367812803620888 +    2.0191ms: Changi
  (TID 1) 638367812803630870 +    0.9982ms: Shutting down with reason: ConnectionFailed, and exception: .
  (TID 1) 638367812803644809 +    1.3939ms: Changing link status from ConnectionFailed to Inactive
  (TID 1) 638367812803912270 +   26.7461ms: Shut down complete.
+OutOfProc Endpoint Packet Pump (TID 4) 638372930050566815 +         0ms: Waiting for connection 900000 ms...
+OutOfProc Endpoint Packet Pump (TID 4) 638372930050730072 +   16.3257ms: Parent started connecting. Reading handshake from parent
+OutOfProc Endpoint Packet Pump (TID 4) 638372930050730072 +         0ms: Building handshake for node type TaskHost, (version 1): options 16777217.
+OutOfProc Endpoint Packet Pump (TID 4) 638372930050730072 +         0ms: Handshake salt is 
+OutOfProc Endpoint Packet Pump (TID 4) 638372930050730072 +         0ms: Tools directory root is C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
+OutOfProc Endpoint Packet Pump (TID 4) 638372930050886443 +   15.6371ms: Successfully connected to parent.
+OutOfProc Endpoint Packet Pump (TID 4) 638372930050886443 +         0ms: Changing link status from Inactive to Active
+OutOfProc Endpoint Packet Pump (TID 4) 638372930050886443 +         0ms: Entering read loop.
+OutOfProc Endpoint Packet Pump (TID 4) 638372930099809142 +   4892.27ms: Disconnecting voluntarily
+OutOfProc Endpoint Packet Pump (TID 4) 638372930099809142 +         0ms: Changing link status from Active to Failed
+OutOfProc Endpoint Packet Pump (TID 4) 638372930099809142 +         0ms: Ending read loop
+ (TID 1) 638372930099809142 +         0ms: Changing link status from Failed to Inactive

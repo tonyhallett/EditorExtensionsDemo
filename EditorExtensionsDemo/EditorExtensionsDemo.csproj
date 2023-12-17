@@ -80,25 +80,83 @@
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Compile>
     <Compile Include="Tagging\RegexTagger.cs" />
-    <Compile Include="ToolWindows\ClassificationTextFormattingRunProperties.cs" />
-    <Compile Include="ToolWindows\ClassificationTextSource.cs" />
+    <Compile Include="ToolWindows\Controls\Dialogs\ToolWindows\ClassificationTypesNotInRegistryToolWindow.cs" />
+    <Compile Include="ToolWindows\Controls\Dialogs\ToolWindows\ClassificationTypesNotInRegistryWindowControl.xaml.cs">
+      <DependentUpon>ClassificationTypesNotInRegistryWindowControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolWindows\MVVM\Behaviors\AttachToPropertyAction.cs" />
+    <Compile Include="ToolWindows\Controls\WpfListView.xaml.cs">
+      <DependentUpon>WpfListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolWindows\PriorityClassification\ColumnNameSplitter.cs" />
+    <Compile Include="ToolWindows\ViewModels\CaretClassificationViewModel.cs" />
+    <Compile Include="ToolWindows\ViewModels\ClassificationEditorFormatDefinitionClassificationTypesNotInRegistryViewModel.cs" />
+    <Compile Include="ToolWindows\ViewModels\ClassificationFormatCategoryViewModel.cs" />
+    <Compile Include="ToolWindows\CurrentClassificationTextFormattingRunPropertiesFormatMapService\CurrentClassificationTextFormattingRunPropertiesFormatMapService.cs" />
+    <Compile Include="ToolWindows\ClassificationTypeInfo\ClassificationTypeInfoService.cs" />
+    <Compile Include="ToolWindows\ClassificationTypesNotInRegistry.cs" />
+    <Compile Include="ToolWindows\ViewModels\ClassificationTypesNotInRegistryViewModel.cs" />
+    <Compile Include="ToolWindows\Converters\BoolToVisibilityConverter.cs" />
+    <Compile Include="ToolWindows\CaretClassification\ActiveViewCaretClassification.cs" />
+    <Compile Include="ToolWindows\CaretClassification\IActiveViewCaretClassification.cs" />
+    <Compile Include="ToolWindows\CaretClassification\WpfTextViewCaretClassification.cs" />
+    <Compile Include="ToolWindows\ClassificationTypeInfo\ClassificationTypeInfo.cs" />
+    <Compile Include="ToolWindows\ClassificationEditorFormatDefinitionClassificationTypesNotInRegistry.cs" />
+    <Compile Include="ToolWindows\Converters\ColorToSolidColorBrushValueConverter.cs" />
+    <Compile Include="ToolWindows\ClassificationTypeInfo\DefinitionFrom.cs" />
+    <Compile Include="ToolWindows\CurrentClassificationTextFormattingRunPropertiesFormatMapService\IClassificationFormatMapProvider.cs" />
+    <Compile Include="ToolWindows\MVVM\EventAggregator.cs" />
+    <Compile Include="ToolWindows\CurrentClassificationTextFormattingRunPropertiesFormatMapService\ICurrentClassificationTextFormattingRunPropertiesFormatMapService.cs" />
+    <Compile Include="ToolWindows\ClassificationTypeInfo\IClassificationTypeInfoService.cs" />
+    <Compile Include="ToolWindows\ClassificationTypeInfo\IClassificationTypeReflector.cs" />
+    <Compile Include="ToolWindows\PriorityClassification\IHavePriorityClassification.cs" />
+    <Compile Include="ToolWindows\PriorityClassification\IIndexedTableEntry.cs" />
+    <Compile Include="ToolWindows\ITreeProperties.cs" />
+    <Compile Include="ToolWindows\MVVM\IWindowService.cs" />
+    <Compile Include="ToolWindows\PriorityClassification\PriorityClassificationTableEntry.cs" />
+    <Compile Include="ToolWindows\ViewModels\IClassificationFormatCategoryViewModel.cs" />
+    <Compile Include="ToolWindows\ViewModels\IInvokeWithDelay.cs" />
+    <Compile Include="ToolWindows\ViewModels\InvokeWithDelay.cs" />
+    <Compile Include="ToolWindows\ViewModels\ISettingsManager.cs" />
+    <Compile Include="ToolWindows\ViewModels\IWpfTableControlCreator.cs" />
+    <Compile Include="ToolWindows\ViewModels\IWpfTableControlDataContext.cs" />
+    <Compile Include="ToolWindows\ViewModels\PriorityClassificationViewModel.cs" />
+    <Compile Include="ToolWindows\PriorityClassification\ReflectableTableEntry.cs" />
+    <Compile Include="ToolWindows\Reflection\CategoryReflector.cs" />
+    <Compile Include="ToolWindows\CurrentClassificationTextFormattingRunPropertiesFormatMapService\ClassificationTextFormattingRunProperties.cs" />
+    <Compile Include="ToolWindows\Controls\ClassificationTextSource.cs" />
     <Compile Include="ToolWindows\ClassificationToolWindow.cs" />
-    <Compile Include="ToolWindows\ClassificationToolWindowControl.xaml.cs">
+    <Compile Include="ToolWindows\Controls\ClassificationToolWindowControl.xaml.cs">
       <DependentUpon>ClassificationToolWindowControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ToolWindows\ClassificationTreeItem.cs" />
-    <Compile Include="ToolWindows\ClassificationViewModel.cs" />
-    <Compile Include="ToolWindows\DefaultTextParagraphProperties.cs" />
-    <Compile Include="ToolWindows\DefaultTextRunProperties.cs" />
+    <Compile Include="ToolWindows\Controls\ClassificationTreeItem.cs" />
+    <Compile Include="ToolWindows\Reflection\ClassificationTypeReflector.cs" />
+    <Compile Include="ToolWindows\Reflection\ClassificationTypes.cs" />
+    <Compile Include="ToolWindows\ViewModels\ClassificationViewModel.cs" />
+    <Compile Include="ToolWindows\Controls\DefaultTextParagraphProperties.cs" />
+    <Compile Include="ToolWindows\Controls\DefaultTextRunProperties.cs" />
     <Compile Include="ToolWindows\Metadata\IClassificationFormatMetadata.cs" />
     <Compile Include="ToolWindows\Metadata\IClassificationTypeDefinitionMetadata.cs" />
     <Compile Include="ToolWindows\Metadata\IEditorFormatMetadata.cs" />
     <Compile Include="ToolWindows\Metadata\IOrderable.cs" />
-    <Compile Include="ToolWindows\MyClassificationFormatMap.cs" />
-    <Compile Include="ToolWindows\Orderer.cs" />
-    <Compile Include="ToolWindows\PriorityClassification.cs" />
+    <Compile Include="ToolWindows\CurrentClassificationTextFormattingRunPropertiesFormatMapService\ClassificationTextFormattingRunPropertiesFormatMap.cs" />
+    <Compile Include="ToolWindows\Reflection\ICategoryReflector.cs" />
+    <Compile Include="ToolWindows\Utilities\StringExtensions.cs" />
+    <Compile Include="ToolWindows\PriorityClassification\TableColumnDefinition.cs" />
+    <Compile Include="ToolWindows\PriorityClassification\TableControlEventProcessor.cs" />
+    <Compile Include="ToolWindows\PriorityClassification\TableControlEventProcessorProvider.cs" />
+    <Compile Include="ToolWindows\Unused\Orderer.cs" />
+    <Compile Include="ToolWindows\PriorityClassification\PriorityClassification.cs" />
+    <Compile Include="ToolWindows\Utilities\TextViewExtensions.cs" />
+    <Compile Include="ToolWindows\Controls\Dialogs\ClassificationTypesNotInRegistryDialogWindow.xaml.cs">
+      <DependentUpon>ClassificationTypesNotInRegistryDialogWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolWindows\Utilities\TreeBuilder.cs" />
     <Compile Include="ToolWindows\TreeItem.cs" />
-    <Compile Include="ToolWindows\ViewModelBase.cs" />
+    <Compile Include="ToolWindows\Unused\ViewModelBase.cs" />
+    <Compile Include="ToolWindows\MVVM\WindowService.cs" />
+    <Compile Include="ToolWindows\ViewModels\SettingsManager.cs" />
+    <Compile Include="ToolWindows\ViewModels\WpfTableControlCreator.cs" />
     <Compile Include="VSCommandTable.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -124,6 +182,7 @@
     </VSCTCompile>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -141,6 +200,12 @@
     <PackageReference Include="CommunityToolkit.Mvvm">
       <Version>8.2.2</Version>
     </PackageReference>
+    <PackageReference Include="EventAggregator.Net">
+      <Version>1.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="gong-wpf-dragdrop">
+      <Version>3.2.1</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.CodeAnalysis.EditorFeatures.Text">
       <Version>4.7.0</Version>
     </PackageReference>
@@ -148,13 +213,29 @@
       <Version>4.7.0</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0.5232" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf">
+      <Version>1.1.77</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="ToolWindows\ClassificationToolWindowControl.xaml">
+    <Page Include="ToolWindows\Controls\ClassificationToolWindowControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ToolWindows\Controls\Dialogs\ClassificationTypesNotInRegistryDialogWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ToolWindows\Controls\Dialogs\ToolWindows\ClassificationTypesNotInRegistryWindowControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ToolWindows\Controls\WpfListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

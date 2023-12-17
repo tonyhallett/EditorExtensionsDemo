@@ -2,6 +2,7 @@
 global using Microsoft.VisualStudio.Shell;
 global using System;
 global using Task = System.Threading.Tasks.Task;
+using EditorExtensionsDemo.ToolWindows.Controls.Dialogs;
 using System.Runtime.InteropServices;
 using System.Threading;
 
@@ -14,6 +15,7 @@ namespace EditorExtensionsDemo
     [Guid(PackageGuids.EditorExtensionsDemoString)]
 #pragma warning disable VSSDK003 // Support async tool windows
     [ProvideToolWindow(typeof(ClassificationToolWindow.Pane))]
+    [ProvideToolWindow(typeof(ClassificationTypesNotInRegistryToolWindow.Pane))]
 #pragma warning restore VSSDK003 // Support async tool windows
     public sealed class EditorExtensionsDemoPackage : ToolkitPackage
     {
@@ -22,6 +24,7 @@ namespace EditorExtensionsDemo
             await this.RegisterCommandsAsync();
             await JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
             ClassificationToolWindow.Initialize(this);
+            ClassificationTypesNotInRegistryToolWindow.Initialize(this);
             //var lazyEditorFormatDefinitions = componentModel.DefaultExportProvider.GetExports<EditorFormatDefinition, IEditorFormatMetadata>().ToList();
             //lazyEditorFormatDefinitions.OrderBy(l => l.Metadata.Name).ToList().ForEach(l =>
             //{

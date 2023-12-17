@@ -1,0 +1,86 @@
+(34)-638374572818094015: Received request 0 (node request 0) with parent -1 from node -1
+(34)-638374572818094015: Requesting creation of new node satisfying affinity InProc
+(34)-638374572818094015: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+(34)-638374572818134018: Node 1 created
+(34)-638374572818134018: Executing request 0 on node 1 with parent -1
+(34)-638374572818134018: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 1/1 Responses: 1
+(43)-638374572819979549: Reporting result from node 1 for request 0, parent -1.
+(43)-638374572819979549: Build complete
+(44)-638374573301284342: Received request 0 (node request 0) with parent -1 from node -1
+(44)-638374573301284342: Requesting creation of 1 new node(s) satisfying affinity OutOfProc
+(44)-638374573301284342: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+(44)-638374573301596857: Node 2 created
+(44)-638374573301596857: Executing request 0 on node 2 with parent -1
+(44)-638374573301596857: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(30)-638374573311989719: Received request 1 (node request 1) with parent 0 from node 2
+(30)-638374573311989719: Executing request 1 on node 2 with parent 0
+(30)-638374573311989719: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(29)-638374573314663878: Reporting result from node 2 for request 1, parent 0.
+(29)-638374573314663878: Unblocking request 0 on node 2
+(29)-638374573314663878: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 2
+(8)-638374573350858328: Received request 2 (node request 2) with parent 0 from node 2
+(8)-638374573350858328: Executing request 2 on node 2 with parent 0
+(8)-638374573350858328: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(29)-638374573350858328: Reporting result from node 2 for request 2, parent 0.
+(29)-638374573350858328: Unblocking request 0 on node 2
+(29)-638374573350858328: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 2
+(5)-638374573350858328: Received request 3 (node request 3) with parent 0 from node 2
+(5)-638374573350858328: Executing request 3 on node 2 with parent 0
+(5)-638374573350858328: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(8)-638374573350993403: Reporting result from node 2 for request 3, parent 0.
+(8)-638374573350993403: Unblocking request 0 on node 2
+(8)-638374573350993403: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 2
+(30)-638374573376498789: Reporting result from node 2 for request 0, parent -1.
+(30)-638374573376498789: Build complete
+(56)-638374575267511166: Received request 0 (node request 0) with parent -1 from node -1
+(56)-638374575267511166: Requesting creation of 1 new node(s) satisfying affinity OutOfProc
+(56)-638374575267511166: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+(56)-638374575267736897: Node 2 created
+(56)-638374575267736897: Executing request 0 on node 2 with parent -1
+(56)-638374575267736897: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(37)-638374575282691606: Received request 1 (node request 1) with parent 0 from node 2
+(37)-638374575282691606: Executing request 1 on node 2 with parent 0
+(37)-638374575282691606: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(51)-638374575285062565: Reporting result from node 2 for request 1, parent 0.
+(51)-638374575285062565: Unblocking request 0 on node 2
+(51)-638374575285062565: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 2
+(45)-638374575325160709: Received request 2 (node request 2) with parent 0 from node 2
+(45)-638374575325160709: Executing request 2 on node 2 with parent 0
+(45)-638374575325160709: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(45)-638374575325160709: Reporting result from node 2 for request 2, parent 0.
+(45)-638374575325160709: Unblocking request 0 on node 2
+(45)-638374575325160709: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 2
+(70)-638374575325317845: Received request 3 (node request 3) with parent 0 from node 2
+(70)-638374575325317845: Executing request 3 on node 2 with parent 0
+(70)-638374575325317845: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(45)-638374575325636362: Reporting result from node 2 for request 3, parent 0.
+(45)-638374575325636362: Unblocking request 0 on node 2
+(45)-638374575325636362: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 2
+(56)-638374575355826194: Reporting result from node 2 for request 0, parent -1.
+(56)-638374575355826194: Build complete
+(136)-638374580956717987: Received request 0 (node request 0) with parent -1 from node -1
+(136)-638374580956717987: Requesting creation of 1 new node(s) satisfying affinity OutOfProc
+(136)-638374580956717987: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+(136)-638374580957016560: Node 2 created
+(136)-638374580957016560: Executing request 0 on node 2 with parent -1
+(136)-638374580957016560: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(110)-638374580970079962: Received request 1 (node request 1) with parent 0 from node 2
+(110)-638374580970079962: Executing request 1 on node 2 with parent 0
+(110)-638374580970079962: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(136)-638374580972463835: Reporting result from node 2 for request 1, parent 0.
+(136)-638374580972463835: Unblocking request 0 on node 2
+(136)-638374580972463835: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 2
+(136)-638374581007208206: Received request 2 (node request 2) with parent 0 from node 2
+(136)-638374581007208206: Executing request 2 on node 2 with parent 0
+(136)-638374581007208206: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(133)-638374581007242142: Reporting result from node 2 for request 2, parent 0.
+(133)-638374581007242142: Unblocking request 0 on node 2
+(133)-638374581007242142: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 2
+(145)-638374581007292475: Received request 3 (node request 3) with parent 0 from node 2
+(145)-638374581007292475: Executing request 3 on node 2 with parent 0
+(145)-638374581007292475: Requests scheduled: 1 Unassigned Requests: 0 Blocked Requests: 1 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 1
+(145)-638374581007438335: Reporting result from node 2 for request 3, parent 0.
+(145)-638374581007438335: Unblocking request 0 on node 2
+(145)-638374581007438335: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/1 Responses: 2
+(123)-638374581030971255: Reporting result from node 2 for request 0, parent -1.
+(123)-638374581030971255: Build complete
